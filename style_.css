@@ -1,0 +1,130 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgb(123, 123, 205);
+    color: beige;
+    overflow: hidden;
+}
+.try{
+    display: flex;
+    position: fixed;
+    flex:10%;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.header {
+    background-color: rgb(56, 63, 243);
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    border-radius: 1rem;
+}
+.header img{
+    position: fixed;
+    right: 0;
+}
+.header marquee{
+    font-size: 37px;
+}
+
+.marque {
+    background-color: rgb(8, 62, 59);
+    position: fixed;
+    top: 60px;
+    left: 250px;
+    height: 45px;
+    width: 90%;
+    /* border-radius: 1rem; */
+}
+.navbar {
+    background-color: #05445E;
+    width: 250px;
+    /* border-radius: 1rem; */
+}
+.sidebar {
+    background-color: rgba(19, 1, 66, 0.734);
+    position: fixed;
+    right: 0;
+    top: 110px;
+    width: 300px;
+    height: 40%;
+    border-radius: 1rem;  /*1 rem =16px */
+}
+.sidebar .register {
+    width: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 150px;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.sidebar .login {
+    width: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 230px;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.sidebar .voter-id {
+    width: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 320px;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.register:hover{
+    opacity: 0.7;
+}
+.main-content {
+    background-color: green;
+    flex: 1;
+}
+.sticky-header{
+    background-color: beige;
+}
+.footer {
+    background-color: rgb(56, 63, 243);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgba(240, 236, 236, 0.941);
+}
+.info{
+    border-radius: 1rem;
+    display: flex;
+    position: fixed;
+    top: 250px;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+    line-height: 60px;
+}
+.info-option :hover{
+    line-height: 2.5rem;
+    opacity: 0.7;
+}
+.info-option i{
+    font-size: 1.25rem;
+
+}
+.info-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
